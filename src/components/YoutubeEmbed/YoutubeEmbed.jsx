@@ -2,9 +2,8 @@ import React from "react";
 import './styles.css';
 
 const YoutubeEmbed = ({ embedId }) => (
-  <div className="">
+  <div className="video-responsive">
     <iframe
-      width="853"
       height="480"
       src={`https://www.youtube.com/embed/${embedId}`}
       frameBorder="0"

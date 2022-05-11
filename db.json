@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id:": 1,
+      "title": "מספרה",
+      "description": "גזירת שיער",
+      "tags": [
+        "מספרה",
+        "רעש חזק"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "מספרה"
+    },
+    {
+      "id": 2,
+      "name": "רעש"
+    },
+    {
+      "id": 1,
+      "name": "סופר"
+    }
+  ]
+}
