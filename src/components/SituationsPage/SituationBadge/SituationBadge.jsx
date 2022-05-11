@@ -1,7 +1,9 @@
 import './styles.css';
 import { Badge } from '@mui/material';
+import { Link, Outlet } from "react-router-dom";
 
 const SituationBadge = ({ title, photo, situationId }) => {
+
     return <Badge
         overlap="circular" badgeContent={title}
         anchorOrigin={{
@@ -9,11 +11,17 @@ const SituationBadge = ({ title, photo, situationId }) => {
             horizontal: 'left',
         }}
         color="primary">
-        <span class="dot" onClick={() => { console.log('should go to the page of- ' + situationId) }}>
-            <span class="inner-dot">
-                <img style={{ width: '100px', height: '100px' }} src={photo} />
+        <Link
+            style={{ display: "block", margin: "1rem 0" }}
+            to={'/תוכן/' + situationId}
+            key={situationId}>
+            <span class="dot" >
+                <span class="inner-dot">
+                    <img style={{ width: '100px', height: '100px' }} src={photo} />
+                </span>
             </span>
-        </span>
+        </Link>
+        <Outlet />
     </Badge>
         ;
 }

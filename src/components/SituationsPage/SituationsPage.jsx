@@ -10,11 +10,11 @@ const SituationsPage = () => {
     const [search, setSearch] = useState("");
 
     const situations = [
-        { id: "asd", title: "ביקור במספרה", img: "images/heart.png" },
-        { id: "asd", title: "רופא שיניים", img: "images/ASD_simley_big.gif" },
-        { id: "asd", title: "MRI", img: "images/logo192.png" },
-        { id: "asd", title: "חיסון", img: "images/soak-asd-logo-clr-01.png" },
-        { id: "asd", title: "קניות בסופר", img: "images/this.jfif" }];
+        { id: "hair", title: "ביקור במספרה", img: "images/heart.png" },
+        { id: "dent", title: "רופא שיניים", img: "images/ASD_simley_big.gif" },
+        { id: "mri", title: "MRI", img: "images/logo192.png" },
+        { id: "doc", title: "חיסון", img: "images/soak-asd-logo-clr-01.png" },
+        { id: "super", title: "קניות בסופר", img: "images/this.jfif" }];
 
     const handleChange = (event) => {
         setSearch(event.target.value.toLowerCase());
