@@ -1,0 +1,25 @@
+.dot {
+    height: 150px;
+    width: 150px;
+    background-color: #bbb;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+}
+
+.inner-dot {
+    height: 130px;
+    width: 130px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 5px;
+}
+
+.css-1co29r-MuiBadge-badge{
+    font-size: 1rem !important;
+}

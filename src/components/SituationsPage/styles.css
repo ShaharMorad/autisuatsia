@@ -1,0 +1,10 @@
+.situations-page {
+    height: 80vh;
+}
+
+.situations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
