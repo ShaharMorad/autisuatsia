@@ -7,6 +7,7 @@ import AddFile from './AddFile';
 import Tags from './Tags.jsx';
 import { useState } from 'react';
 import { addPost, sendQrCode } from '../../Utilities/Api'
+import { useNavigate } from 'react-router-dom';
 
 const AddPost = () => {
     const [difficulty, setDifficulty] = useState(0);
@@ -14,6 +15,7 @@ const AddPost = () => {
     const [description, setDescription] = useState('');
     const [videoLink, setLink] = useState('');
     const [tags, setTags] = useState([]);
+    const navigate = useNavigate();
 
     const changeDiffculty = (event, newValue) => {
         setDifficulty(newValue);
@@ -36,9 +38,9 @@ const AddPost = () => {
     };
 
     const onSubmit = (post) => {
-        debugger;
         addPost(post);
         sendQrCode(post);
+        navigate("/", { replace: true });
     };
 
 
@@ -73,14 +75,14 @@ const AddPost = () => {
 
             <Button onClick={() => {
                 onSubmit({
-                    "title": { title },
-                    "description": { description },
-                    "difficulty": { difficulty },
-                    "tags": [tags],
-                    "videoUrl": { videoLink }
+                    title ,
+                    description,
+                    difficulty,
+                    tags,
+                    videoLink
                 });
             }}
-                variant="contained" endIcon={<AddIcon sx={{ fontSize: 400 }} />}>
+                variant="contained">
                 הוסף פוסט
             </Button>
         </div >
