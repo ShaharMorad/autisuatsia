@@ -6,7 +6,6 @@ import TextField from '@mui/material/TextField';
 import SearchIcon from '@mui/icons-material/Search';
 import CircularProgress from '@mui/material/CircularProgress';
 
-
 const SituationsPage = () => {
 
     const [search, setSearch] = useState("");
@@ -18,7 +17,7 @@ const SituationsPage = () => {
             .then(response => response.json())
             .then(data => {
                 setSituations(data);
-                setIsLoading(false)
+                setIsLoading(false);
             });
     }, []);
 
