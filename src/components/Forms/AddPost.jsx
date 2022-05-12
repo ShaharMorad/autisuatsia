@@ -13,7 +13,7 @@ const AddPost = () => {
     const [difficulty, setDifficulty] = useState(0);
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
-    const [videoLink, setLink] = useState('');
+    const [videoUrl, setLink] = useState('');
     const [tags, setTags] = useState([]);
     const navigate = useNavigate();
 
@@ -68,7 +68,7 @@ const AddPost = () => {
             />
 
             <Box id="video-link-wrapper">
-                <TextField dir="rtl" value={videoLink} onChange={changeLink} id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
+                <TextField dir="rtl" value={videoUrl} onChange={changeLink} id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
             </Box>
 
             <AddFile />
@@ -79,7 +79,7 @@ const AddPost = () => {
                     description,
                     difficulty,
                     tags,
-                    videoLink
+                    videoUrl
                 });
             }}
                 variant="contained">

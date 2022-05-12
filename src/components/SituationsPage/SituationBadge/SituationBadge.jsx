@@ -15,7 +15,8 @@ const SituationBadge = ({ title, photo, situationId }) => {
             style={{ display: "block", margin: "1rem 0" }}
             to={'/תוכן/' + situationId}
             key={situationId}>
-            <span class="dot" >
+            <span class="dot" onClick={()=>{console.log("ASdasdasdasdasd");}} >
+                
                 <span class="inner-dot">
                     <img style={{ width: '100px', height: '100px' }} src={photo} />
                 </span>
