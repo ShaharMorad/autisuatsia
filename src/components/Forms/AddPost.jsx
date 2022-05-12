@@ -66,7 +66,7 @@ const AddPost = () => {
             />
 
             <Box id="video-link-wrapper">
-                <TextField dir="rtl" value={videoLink} onChange={changeLink} fullwidth id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
+                <TextField dir="rtl" value={videoLink} onChange={changeLink} id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
             </Box>
 
             <AddFile />
@@ -76,10 +76,7 @@ const AddPost = () => {
                     "title": { title },
                     "description": { description },
                     "difficulty": { difficulty },
-                    "tags": [
-                        "מספרה",
-                        "רעש חזק"
-                    ],
+                    "tags": [tags],
                     "videoUrl": { videoLink }
                 });
             }}
