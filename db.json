@@ -9,19 +9,104 @@
         "מספרה",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo"
+      "videoUrl": "https://www.youtube.com/watch?v=TEE9A_aToOw",
+      "photo":"images/hairDryer.png"
     },
     {
-      "id": 2
+      "id": 2,
+      "title": "בדיקת CT",
+      "description": "בדיקת CT בבית חולים",
+      "difficulty": 60,
+      "tags": [
+        "רופא",
+        "רעש חזק"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s",
+      "photo":"images/statoscop.jpeg"
     },
     {
-      "id": 3
+      "id": 3,
+      "title": "קניות בסופר",
+      "description": "הסיטואציה כוללת קניות מנקודת מבט של ילד בעגלה. מעבר בין המעברים וליד אנשים, המתנה בקופה ואינטרקציה קרובה עם הקופאי, בנוסף אינטרקציה קרובה עם המאבטח.",
+      "difficulty": 30,
+      "tags": [
+        "סופרמקרט",
+        "המולה"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=lsZF9p8rXQU",
+      "photo":"images/groceries.png"
     },
     {
-      "id": 4
+      "id": 4,
+      "title": "איפור ושיער",
+      "description": "הכנות לאירוע, תסרוקת ואיפור",
+      "difficulty": 30,
+      "tags": [
+        "מספרה",
+        "רעש חזק"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=Ny3nJXp_eZw&t=796s",
+      "photo":"images/makeup.png"
     },
     {
-      "id": 5
+      "id": 5,
+      "title": "רופא שיניים",
+      "description": "ביקור אצל רופא השיניים במרפאהץ כולל המתנה בתור, ישיבה אצל הרופא, רעשים של מכונות ובסוף סוכריה על מקל",
+      "difficulty": 75,
+      "tags": [
+        "רופא",
+        "רעש חזק"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=09jAjZLK1LM",
+      "photo":"images/vaccine.png"
+    },
+    {
+      "id": 6,
+      "title": "קניות בסופר",
+      "description": "הסיטואציה כוללת קניות מנקודת מבט של ילד בעגלה. מעבר בין המעברים וליד אנשים, המתנה בקופה ואינטרקציה קרובה עם הקופאי, בנוסף אינטרקציה קרובה עם המאבטח.",
+      "difficulty": 30,
+      "tags": [
+        "סופרמקרט",
+        "המולה"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "photo":"images/shoppingBags.png"
+    },
+    {
+      "id": 7,
+      "title": "מספרה",
+      "description": "גזירת שיער",
+      "difficulty": 80,
+      "tags": [
+        "מספרה",
+        "רעש חזק"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=-xRbBXjRvZk",
+      "photo":"images/haircut.png"
+    },
+    {
+      "id": 8,
+      "title": "בדיקת אוזניים",
+      "description": "ביקור אצל הרופאה לךבדיקת אוזניים. כולל חדירה למרחב האישי ופגישה עם אדם זר.",
+      "difficulty": 50,
+      "tags": [
+        "רופא",
+        "רעש חזק"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=UZ2oMOwr5QE",
+      "photo":"images/statoscop2.png"
+    },
+    {
+      "id": 9,
+      "title": "קניות בסופר",
+      "description": "הסיטואציה כוללת קניות מנקודת מבט של ילד בעגלה. מעבר בין המעברים וליד אנשים, המתנה בקופה ואינטרקציה קרובה עם הקופאי, בנוסף אינטרקציה קרובה עם המאבטח.",
+      "difficulty": 30,
+      "tags": [
+        "סופרמקרט",
+        "המולה"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "photo":"images/shoppingCart.png"
     }
   ],
   "tags": [
@@ -34,8 +119,20 @@
       "name": "רעש"
     },
     {
-      "id": 1,
+      "id": 3,
       "name": "סופר"
+    },
+    {
+      "id": 4,
+      "name": "רופא"
+    },
+    {
+      "id": 5,
+      "name": "אורות מהבהבים"
+    },
+    {
+      "id": 6,
+      "name": "המולה"
     }
   ]
 }

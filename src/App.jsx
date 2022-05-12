@@ -6,12 +6,14 @@ import { Profile } from './components/Profile';
 import SituationsPage from "./components/SituationsPage/SituationsPage"
 import SituationPage from "./components/SituationsPage/SituationPage/SituationPage"
 import { Actions } from './components/Actions';
+import AddPost from './components/Forms/AddPost';
 
 function App() {
   return (
     <div className="App">
       <html dir="rtl" >
         <NavBar />
+        <AddPost />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/%D7%A4%D7%A2%D7%95%D7%9C%D7%95%D7%AA" element={<Actions />} />

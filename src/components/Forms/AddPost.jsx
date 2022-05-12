@@ -7,6 +7,7 @@ import AddFile from './AddFile';
 import Tags from './Tags.jsx';
 import { useState } from 'react';
 import { addPost, sendQrCode } from '../../Utilities/Api'
+import './styles.css';
 
 const AddPost = () => {
     const [difficulty, setDifficulty] = useState(0);
@@ -44,15 +45,27 @@ const AddPost = () => {
 
     return (
         <div>
+
             <Box id="title-wrapper">
+<<<<<<< HEAD
                 <TextField value={title} onChange={changeTitle} id="Title" placeholder="כותרת" variant="standard" />
+=======
+                <TextField dir="rtl" value={title} onChange={changeTitle} id="Title" placeholder="כותרת" variant="standard" />
+>>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
             </Box>
+
             <Box id="description-wrapper">
+<<<<<<< HEAD
                 <TextField value={description} onChange={changeDescription} id="description" placeholder="תיאור" multiline variant="standard" />
+=======
+                <TextField dir="rtl" value={description} onChange={changeDescription} id="description" placeholder="תיאור" multiline variant="standard" />
+>>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
             </Box>
+
             <Box sx={{ mr: "40%" }}>
                 <Tags changeTags={changeTags} />
             </Box>
+
             <Slider
                 sx={{ width: '25%', margin: '10px' }}
                 track={false}
@@ -60,12 +73,20 @@ const AddPost = () => {
                 onChange={changeDiffculty}
                 marks={[{ value: 0, label: 'קל' }, { value: 100, label: 'קשה' }]}
             />
+
             <Box id="video-link-wrapper">
+<<<<<<< HEAD
                 <TextField value={videoLink} onChange={changeLink} id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
+=======
+                <TextField dir="rtl" value={videoLink} onChange={changeLink} fullwidth id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
+>>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
             </Box>
+
             <AddFile />
+
             <Button onClick={() => {
                 onSubmit({
+<<<<<<< HEAD
                     "title": {title},
                     "description": {description},
                     "difficulty": {difficulty},
@@ -75,6 +96,20 @@ const AddPost = () => {
             }}
                 aria-label="add" variant="contained" >
                     <AddIcon />
+=======
+                    "title": { title },
+                    "description": { description },
+                    "difficulty": { difficulty },
+                    "tags": [
+                        "מספרה",
+                        "רעש חזק"
+                    ],
+                    "videoUrl": { videoLink }
+                });
+            }}
+                variant="contained" endIcon={<AddIcon sx={{ fontSize: 400 }} />}>
+                הוסף פוסט
+>>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
             </Button>
         </div >
     )

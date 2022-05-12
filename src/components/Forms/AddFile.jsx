@@ -7,7 +7,7 @@ const AddFile = () => {
         <div>
             <label htmlFor="upload-file-input">
                 <Input sx={{ display: 'none' }} id="upload-file-input" type="file" />
-                <IconButton color="primary" aria-label="upload picture" component="span">
+                <IconButton color="primary" component="span">
                     <AttachFileIcon />
                 </IconButton>
             </label>
