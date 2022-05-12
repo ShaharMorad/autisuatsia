@@ -27,11 +27,7 @@ const Tags = ({ changeTags }) => {
                     <TextField
                         {...params}
                         variant="standard"
-<<<<<<< HEAD
-                        placeholder="קטגוריה"
-=======
                         placeholder="קטגוריות"
->>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
                     />
                 )}
             />

@@ -47,19 +47,11 @@ const AddPost = () => {
         <div>
 
             <Box id="title-wrapper">
-<<<<<<< HEAD
-                <TextField value={title} onChange={changeTitle} id="Title" placeholder="כותרת" variant="standard" />
-=======
                 <TextField dir="rtl" value={title} onChange={changeTitle} id="Title" placeholder="כותרת" variant="standard" />
->>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
             </Box>
 
             <Box id="description-wrapper">
-<<<<<<< HEAD
-                <TextField value={description} onChange={changeDescription} id="description" placeholder="תיאור" multiline variant="standard" />
-=======
                 <TextField dir="rtl" value={description} onChange={changeDescription} id="description" placeholder="תיאור" multiline variant="standard" />
->>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
             </Box>
 
             <Box sx={{ mr: "40%" }}>
@@ -75,28 +67,13 @@ const AddPost = () => {
             />
 
             <Box id="video-link-wrapper">
-<<<<<<< HEAD
-                <TextField value={videoLink} onChange={changeLink} id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
-=======
                 <TextField dir="rtl" value={videoLink} onChange={changeLink} fullwidth id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
->>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
             </Box>
 
             <AddFile />
 
             <Button onClick={() => {
                 onSubmit({
-<<<<<<< HEAD
-                    "title": {title},
-                    "description": {description},
-                    "difficulty": {difficulty},
-                    "tags": {tags},
-                    "videoUrl": {videoLink}
-                });
-            }}
-                aria-label="add" variant="contained" >
-                    <AddIcon />
-=======
                     "title": { title },
                     "description": { description },
                     "difficulty": { difficulty },
@@ -109,7 +86,6 @@ const AddPost = () => {
             }}
                 variant="contained" endIcon={<AddIcon sx={{ fontSize: 400 }} />}>
                 הוסף פוסט
->>>>>>> 353f7af43d492cf72813f0eaae2389a03b28cd0c
             </Button>
         </div >
     )
