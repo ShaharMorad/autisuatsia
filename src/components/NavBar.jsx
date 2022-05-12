@@ -13,8 +13,9 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import Home from '@mui/icons-material/Home';
 import { Link } from 'react-router-dom';
+import MyLogo from '../images/Logo-Finished.png';
 
-const pages = ['פעולות', 'תוכן'];
+const pages = ['תוכן', 'הוספת תוכן'];
 const settings = ['פרופיל', 'יציאה'];
 
 const NavBar = () => {
@@ -130,38 +131,8 @@ const NavBar = () => {
                             ))}
                         </Box>
 
-                        <Box sx={{ flexGrow: 0 }}>
-                            <Tooltip title="Open settings">
-                                <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                                    <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-                                </IconButton>
-                            </Tooltip>
-                            <Menu
-                                sx={{ mt: '45px' }}
-                                id="menu-appbar"
-                                anchorEl={anchorElUser}
-                                anchorOrigin={{
-                                    vertical: 'top',
-                                    horizontal: 'right',
-                                }}
-                                keepMounted
-                                transformOrigin={{
-                                    vertical: 'top',
-                                    horizontal: 'right',
-                                }}
-                                open={Boolean(anchorElUser)}
-                                onClose={handleCloseUserMenu}
-                            >
-                                {settings.map((setting) => (
-                                    <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                        <Typography textAlign="center">
-                                            <Link style={{ textDecoration: 'none', color: 'inherit' }} to={`/${setting}`}>
-                                                {setting}
-                                            </Link>
-                                        </Typography>
-                                    </MenuItem>
-                                ))}
-                            </Menu>
+                        <Box>
+                            <img src={MyLogo} alt="logo"/>
                         </Box>
                     </Toolbar>
                 </Container>
