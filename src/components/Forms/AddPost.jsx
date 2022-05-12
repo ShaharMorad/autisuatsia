@@ -7,7 +7,6 @@ import AddFile from './AddFile';
 import Tags from './Tags.jsx';
 import { useState } from 'react';
 import { addPost, sendQrCode } from '../../Utilities/Api'
-import './styles.css';
 
 const AddPost = () => {
     const [difficulty, setDifficulty] = useState(0);

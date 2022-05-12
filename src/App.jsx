@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <html dir="rtl" >
         <NavBar />
-        <AddPost />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/%d7%94%d7%95%d7%a1%d7%a4%d7%aa%20%d7%aa%d7%95%d7%9b%d7%9f" element={<Actions />} />
