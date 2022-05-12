@@ -29,7 +29,7 @@ const SituationPage = () => {
     }, []);
 
     const getVideoId = (url) => {
-        return queryString.parse(params.videoUrl.split('?')[1]).v
+        return queryString.parse(url.split('?')[1]).v
     }
 
     return (
@@ -61,7 +61,7 @@ const SituationPage = () => {
                             <Slider
                                 sx={{ margin: '10px' }}
                                 track={false}
-                                value={30}
+                                value={params.difficulty}
                                 marks={[{ value: 0, label: 'קל' }, { value: 100, label: 'קשה' }]}
                             />
                         </div>

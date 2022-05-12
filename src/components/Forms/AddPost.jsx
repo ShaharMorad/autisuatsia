@@ -7,6 +7,7 @@ import AddFile from './AddFile';
 import Tags from './Tags.jsx';
 import { useState } from 'react';
 import { addPost, sendQrCode } from '../../Utilities/Api'
+import './styles.css';
 
 const AddPost = () => {
     const [difficulty, setDifficulty] = useState(0);
@@ -38,15 +39,19 @@ const AddPost = () => {
 
     return (
         <div>
+
             <Box id="title-wrapper">
-                <TextField value={title} onChange={changeTitle} id="Title" label="כותרת" variant="standard" />
+                <TextField dir="rtl" value={title} onChange={changeTitle} id="Title" placeholder="כותרת" variant="standard" />
             </Box>
+
             <Box id="description-wrapper">
-                <TextField value={description} onChange={changeDescription} id="description" label="תיאור" multiline variant="standard" />
+                <TextField dir="rtl" value={description} onChange={changeDescription} id="description" placeholder="תיאור" multiline variant="standard" />
             </Box>
+
             <Box sx={{ mr: "40%" }}>
                 <Tags />
             </Box>
+
             <Slider
                 sx={{ width: '25%', margin: '10px' }}
                 track={false}
@@ -54,23 +59,26 @@ const AddPost = () => {
                 onChange={changeDiffculty}
                 marks={[{ value: 0, label: 'קל' }, { value: 100, label: 'קשה' }]}
             />
+
             <Box id="video-link-wrapper">
-                <TextField value={videoLink} onChange={changeLink} fullwidth id="video-link" label="קישור לסרטון" type="text" variant="standard" />
+                <TextField dir="rtl" value={videoLink} onChange={changeLink} fullwidth id="video-link" placeholder="קישור לסרטון" type="text" variant="standard" />
             </Box>
+
             <AddFile />
+
             <Button onClick={() => {
                 onSubmit({
-                    "title": {title},
-                    "description": {description},
-                    "difficulty": {difficulty},
+                    "title": { title },
+                    "description": { description },
+                    "difficulty": { difficulty },
                     "tags": [
                         "מספרה",
                         "רעש חזק"
                     ],
-                    "videoUrl": {videoLink}
+                    "videoUrl": { videoLink }
                 });
             }}
-                aria-label="add" variant="contained" endIcon={<AddIcon sx={{ fontSize: 400 }} />}>
+                variant="contained" endIcon={<AddIcon sx={{ fontSize: 400 }} />}>
                 הוסף פוסט
             </Button>
         </div >

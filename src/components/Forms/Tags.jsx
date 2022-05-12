@@ -14,8 +14,7 @@ const Tags = () => {
                     <TextField
                         {...params}
                         variant="standard"
-                        label="קטגוריות"
-                        placeholder="קטגוריה"
+                        placeholder="קטגוריות"
                     />
                 )}
             />
