@@ -32,6 +32,7 @@ const SituationsPage = () => {
                 <CircularProgress /> :
                 <>
                     <TextField
+                        sx={{ margin: '10px', backgroundColor: "lightgray" }}
                         value={search}
                         onChange={handleChange}
                         dir="rtl"

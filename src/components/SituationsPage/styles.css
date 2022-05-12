@@ -1,4 +1,8 @@
 .situations-page {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .situations {
@@ -6,4 +10,5 @@
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 5%;
+    width: 70%;
 }
