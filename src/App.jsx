@@ -14,7 +14,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/%D7%A4%D7%A2%D7%95%D7%9C%D7%95%D7%AA" element={<Actions />} />
+          <Route path="/%d7%94%d7%95%d7%a1%d7%a4%d7%aa%20%d7%aa%d7%95%d7%9b%d7%9f" element={<Actions />} />
           <Route path="/%D7%A4%D7%A8%D7%95%D7%A4%D7%99%D7%9C" element={<Profile />} />
           <Route path="/%D7%AA%D7%95%D7%9B%D7%9F" element={<SituationsPage />} />
           <Route path="/%D7%AA%D7%95%D7%9B%D7%9F/:situationId" element={<SituationPage />} />
