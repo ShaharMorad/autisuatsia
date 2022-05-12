@@ -3,6 +3,6 @@
   position: absolute;
   width: 100%;  
   background-image: url('../public/images/background.jpeg');
-  background-repeat: repeat-y;
+  background-repeat: round;
   min-height: 100%;
 }
