@@ -44,8 +44,8 @@ const SituationsPage = () => {
                     <div className="situations">
                         {situations
                             .filter(({ title }) => title.toLowerCase().includes(search))
-                            .map(({ title, img, id }) => {
-                                return <SituationBadge title={title} photo={img} situationId={id} />
+                            .map(({ title, photo, id }) => {
+                                return <SituationBadge title={title} photo={photo} situationId={id} />
                             })}
                     </div>
                 </>

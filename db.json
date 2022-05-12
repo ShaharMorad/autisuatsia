@@ -8,7 +8,8 @@
         "מספרה",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo"
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "photo":"images/hairDryer.png"
     },
     {
       "id": 2,
@@ -18,7 +19,8 @@
         "רופא",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s"
+      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s",
+      "photo":"images/statoscop.jpeg"
     },
     {
       "id": 3,
@@ -28,7 +30,8 @@
         "סופרמקרט",
         "המולה"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo"
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "photo":"images/groceries.png"
     },
     {
       "id": 4,
@@ -38,7 +41,8 @@
         "מספרה",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo"
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "photo":"images/makeup.png"
     },
     {
       "id": 5,
@@ -48,7 +52,8 @@
         "רופא",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s"
+      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s",
+      "photo":"images/vaccine.png"
     },
     {
       "id": 6,
@@ -58,7 +63,8 @@
         "סופרמקרט",
         "המולה"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo"
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "photo":"images/shoppingBags.png"
     },
     {
       "id": 7,
@@ -68,7 +74,8 @@
         "מספרה",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo"
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "photo":"images/haircut.png"
     },
     {
       "id": 8,
@@ -78,7 +85,8 @@
         "רופא",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s"
+      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s",
+      "photo":"images/statoscop2.png"
     },
     {
       "id": 9,
@@ -88,7 +96,8 @@
         "סופרמקרט",
         "המולה"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo"
+      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "photo":"images/shoppingCart.png"
     }
   ],
   "tags": [
