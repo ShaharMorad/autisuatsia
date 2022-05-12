@@ -1,23 +1,79 @@
 import TextField from '@mui/material/TextField';
 import Box from '@mui/material/Box';
+import AddIcon from '@mui/icons-material/Add';
+import { Button } from '@mui/material';
+import { Slider } from '@mui/material';
 import AddFile from './AddFile';
 import Tags from './Tags.jsx';
+import { useState } from 'react';
+import { addPost, sendQrCode } from '../../Utilities/Api'
 
 const AddPost = () => {
+    const [difficulty, setDifficulty] = useState(0);
+    const [title, setTitle] = useState('');
+    const [description, setDescription] = useState('');
+    const [videoLink, setLink] = useState('');
+
+    const changeDiffculty = (event, newValue) => {
+        setDifficulty(newValue);
+    };
+
+    const changeTitle = (event, newValue) => {
+        setTitle(newValue);
+    };
+
+    const changeDescription = (event, newValue) => {
+        setDescription(newValue);
+    };
+
+    const changeLink = (event, newValue) => {
+        setLink(newValue);
+    };
+
+    const onSubmit = (post) => {
+        addPost(post);
+        sendQrCode(post);
+    };
+
+
     return (
         <div>
             <Box id="title-wrapper">
-                <TextField id="Title" label="כותרת" variant="standard" />
+                <TextField value={title} onChange={changeTitle} id="Title" label="כותרת" variant="standard" />
             </Box>
             <Box id="description-wrapper">
-                <TextField id="description" label="תיאור" multiline variant="standard" />
+                <TextField value={description} onChange={changeDescription} id="description" label="תיאור" multiline variant="standard" />
             </Box>
-            <Tags />
+            <Box sx={{ mr: "40%" }}>
+                <Tags />
+            </Box>
+            <Slider
+                sx={{ width: '25%', margin: '10px' }}
+                track={false}
+                value={difficulty}
+                onChange={changeDiffculty}
+                marks={[{ value: 0, label: 'קל' }, { value: 100, label: 'קשה' }]}
+            />
             <Box id="video-link-wrapper">
-                <TextField fullwidth id="video-link" label="קישור לסרטון" type="text" variant="standard" />
+                <TextField value={videoLink} onChange={changeLink} fullwidth id="video-link" label="קישור לסרטון" type="text" variant="standard" />
             </Box>
             <AddFile />
-        </div>
+            <Button onClick={() => {
+                onSubmit({
+                    "title": {title},
+                    "description": {description},
+                    "difficulty": {difficulty},
+                    "tags": [
+                        "מספרה",
+                        "רעש חזק"
+                    ],
+                    "videoUrl": {videoLink}
+                });
+            }}
+                aria-label="add" variant="contained" endIcon={<AddIcon sx={{ fontSize: 400 }} />}>
+                הוסף פוסט
+            </Button>
+        </div >
     )
 }
 

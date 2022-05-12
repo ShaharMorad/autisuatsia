@@ -2,12 +2,14 @@ import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 
 const Tags = () => {
+    const tags = ["מספרה", "סופר", "רעש חזק"];
     return (
         <div>
             <Autocomplete
+                sx={{ width: 300 }}
                 multiple
                 id="sutuations-tags"
-                options={["מספרה", "סופר", "רעש חזק"]}
+                options={tags}
                 renderInput={(params) => (
                     <TextField
                         {...params}
