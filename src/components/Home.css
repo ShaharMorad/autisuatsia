@@ -1,0 +1,19 @@
+.messages {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 75px;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(210, 210, 226);
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
