@@ -2,19 +2,19 @@
   "posts": [
     {
       "id": 1,
-      "title": "מספרה",
-      "description": "גזירת שיער",
+      "title": "שרק הספר",
+      "description": "הזמנת את שרק לספר אותך באינטרנט",
       "tags": [
         "מספרה",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "videoUrl": "https://www.youtube.com/watch?v=TEE9A_aToOw",
       "photo":"images/hairDryer.png"
     },
     {
       "id": 2,
-      "title": "רופא שיניים",
-      "description": "ביקור אצל רופא השיניים במרפאהץ כולל המתנה בתור, ישיבה אצל הרופא, רעשים של מכונות ובסוף סוכריה על מקל",
+      "title": "בדיקת CT",
+      "description": "בדיקת CT בבית חולים",
       "tags": [
         "רופא",
         "רעש חזק"
@@ -30,18 +30,18 @@
         "סופרמקרט",
         "המולה"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "videoUrl": "https://www.youtube.com/watch?v=lsZF9p8rXQU",
       "photo":"images/groceries.png"
     },
     {
       "id": 4,
-      "title": "מספרה",
-      "description": "גזירת שיער",
+      "title": "איפור ושיער",
+      "description": "הכנות לאירוע, תסרוקת ואיפור",
       "tags": [
         "מספרה",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "videoUrl": "https://www.youtube.com/watch?v=Ny3nJXp_eZw&t=796s",
       "photo":"images/makeup.png"
     },
     {
@@ -52,7 +52,7 @@
         "רופא",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s",
+      "videoUrl": "https://www.youtube.com/watch?v=09jAjZLK1LM",
       "photo":"images/vaccine.png"
     },
     {
@@ -74,18 +74,18 @@
         "מספרה",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=ZvZ7da8JBUk&feature=emb_logo",
+      "videoUrl": "https://www.youtube.com/watch?v=-xRbBXjRvZk",
       "photo":"images/haircut.png"
     },
     {
       "id": 8,
-      "title": "רופא שיניים",
-      "description": "ביקור אצל רופא השיניים במרפאהץ כולל המתנה בתור, ישיבה אצל הרופא, רעשים של מכונות ובסוף סוכריה על מקל",
+      "title": "בדיקת אוזניים",
+      "description": "ביקור אצל הרופאה לךבדיקת אוזניים. כולל חדירה למרחב האישי ופגישה עם אדם זר.",
       "tags": [
         "רופא",
         "רעש חזק"
       ],
-      "videoUrl": "https://www.youtube.com/watch?v=tdy1AE1q5Vc&t=20s",
+      "videoUrl": "https://www.youtube.com/watch?v=UZ2oMOwr5QE",
       "photo":"images/statoscop2.png"
     },
     {
