@@ -1,0 +1,25 @@
+.messages {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    margin-top: 75px;
+}
+
+.managers-section {
+    margin-right: 200px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(210, 210, 226);
+}
+
+.about-us-section {
+    width: 200px;
+    border-radius: 25px;
+    background-color: rgb(210, 210, 226);
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

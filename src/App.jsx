@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import { Routes, Route } from 'react-router';
-import { Home } from './components/Home';
+import Home from './components/Home';
 import { Profile } from './components/Profile';
 import SituationsPage from "./components/SituationsPage/SituationsPage"
 import SituationPage from "./components/SituationsPage/SituationPage/SituationPage"
