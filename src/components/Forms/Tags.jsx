@@ -9,7 +9,7 @@ const Tags = ({ changeTags }) => {
         fetch('http://localhost:4000/tags')
             .then(response => response.json())
             .then(data => {
-                setTags(data);
+                setTags(data.map((tag) => tag.name));
             });
     }, []);
 
